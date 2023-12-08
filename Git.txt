@@ -1,1 +1,42 @@
- 
+================= GIT =======================
+ReadMe file - it tells the over all detail about the repository
+GitIgnore - optional
+License -  optional
+
+Two methods for hitting repo
+1.) Https - username & Email_id
+2.) ssh - it requires a ssh key pair for authentication
+
+====Commands===
+
+1. echo "#learning-git-basics" >> README.md  --this will add this file in your local repo or the branch ur are working in.
+2. git add . -- this will commit the changes to a staging env.
+3. git commit -m "first commit"  -- commits changes with a message.
+4. git branch -M main  -- this will create a branchon your local repo names main
+5. git remote add origin (enter the url) -- it add a local repo to the git online repo
+6. git push -u orgin main --
+7. git config --global  user.name
+8. git config --global  user.email
+9. git init -- create a repository 
+10. git status -- to check the status of current branch, committs, changes.
+11. git commit -a -- it will commit the changes by skipping the staging process
+12. echo. > filename  -- this will create empty file in windows cmd
+13. git diff
+14. git diff HEAD -- it will show the diff of working directory changes and last commit changes
+15. git diff --staged
+
+==Commands to Megre Feature branch to main from cmd====
+
+1. git merge feature-branch-name
+2. git merge --continue  -> this will work when u resolve conflict and want to continue
+
+
+================================================
+Git is about creating a series of commits.
+
+--LOCAL AND REMOTE REPO'S--
+1. Local - git init cmd to initialize the git version control for that repo.
+2. Remote repo - online repository
+
+Git Difference --> 1.) It will give detail about what changes u have made that are staged and ready for commit 
+				   2.) what changes u have made but not staged.
