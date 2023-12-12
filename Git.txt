@@ -24,6 +24,9 @@ Two methods for hitting repo
 13. git diff
 14. git diff HEAD -- it will show the diff of working directory changes and last commit changes
 15. git diff --staged
+16. git branch -a -- to check branch of the current repo
+17. git log --
+18. git show (commit_id)  -- it will show the commit related changes
 
 ==Commands to Megre Feature branch to main from cmd====
 
@@ -43,4 +46,16 @@ Git Difference --> 1.) It will give detail about what changes u have made that a
 				   
 				   
 				    
-                                        +++++Live Class GIT++++++
+                                        +++++Live Class GIT - Session 7++++++
+										
+1. Basic git introduction ,
+2. github UI and
+3. git commands introduction
+
+                                        +++++Live Class GIT - Session 8++++++
+										
+1. Git commands
+2. Git workflow
+3. Git strategies
+4. Git Advanced cmds
+5. Git troubleshooting
