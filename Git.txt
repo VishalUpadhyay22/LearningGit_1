@@ -40,3 +40,7 @@ Git is about creating a series of commits.
 
 Git Difference --> 1.) It will give detail about what changes u have made that are staged and ready for commit 
 				   2.) what changes u have made but not staged.
+				   
+				   
+				    
+                                        +++++Live Class GIT++++++
